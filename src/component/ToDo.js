@@ -1,18 +1,23 @@
 import { Checkbox, IconButton } from '@mui/material';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import DeleteIcon from '@mui/icons-material/Delete';
 import "./ToDoStyle.css"
+import { useDispatch } from 'react-redux'
+import { checkTodo, deleteTodo } from '../actions/todoAction'
 
 function ToDo({ todo }) {
+
+    const dispatch = useDispatch()
 
     const [check, setCheck] = useState(false);
 
     function handleChange(e) {
         setCheck(!check);
+        dispatch(checkTodo({ id: todo.id }));
     }
 
     function handleDelete(e) {
-        
+        dispatch(deleteTodo({ id: todo.id }));
     }
 
     return (

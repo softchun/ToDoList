@@ -1,7 +1,7 @@
-import logo from "./logo.svg";
 import "./App.css";
 import ToDoList from "./component/ToDoList";
 import AddToDo from "./component/AddToDo";
+import NumberofToDo from "./component/NumberofToDo";
 
 function App() {
   return (
@@ -12,6 +12,9 @@ function App() {
         </div>
         <div>
           <AddToDo />
+        </div>
+        <div>
+          <NumberofToDo />
         </div>
         <div>
           <ToDoList />

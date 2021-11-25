@@ -1,5 +1,4 @@
 
-
 .todo{
     background-color: #F0E9D2;
     color: #181D31;
@@ -16,6 +15,7 @@
     margin-left: 20%;
     margin-right: 20%;
     box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    word-wrap: break-word;
 }
 
 .todotrue{
@@ -36,7 +36,7 @@
     justify-content: center;
     flex-wrap: wrap;
     flex: 1 0 400px;
-    margin-top: 50px;
+    word-wrap: break-word;
 }
 
 .addtodo{
@@ -61,10 +61,8 @@
     width: 400px;
     height: 50px;
     font-size: 18px;
-    margin: 10px;
     border-radius: 5px;
     border-style: none;
-    padding: 3px 5px 3px 10px;
 }
 
 .button-add{
