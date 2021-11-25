@@ -1,0 +1,79 @@
+
+
+.todo{
+    background-color: #F0E9D2;
+    color: #181D31;
+    text-align: start;
+    font-size: 18px;
+    margin: 10px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    height: 50px;
+    min-width: 100px;
+    max-width: 500px;
+    flex: 1 0 400px;
+    border-radius: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+
+.todotrue{
+    text-decoration: line-through;
+}
+
+.todofalse{
+    text-decoration-line: none;
+}
+
+.box-x{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1 0 400px;
+    margin-top: 50px;
+}
+
+.addtodo{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.input{
+    background-color: #E6DDC4;
+    width: 400px;
+    height: 50px;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 5px;
+    border-style: none;
+    padding: 3px 5px 3px 10px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+
+.input::placeholder{
+    background-color: #E6DDC4;
+    width: 400px;
+    height: 50px;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 5px;
+    border-style: none;
+    padding: 3px 5px 3px 10px;
+}
+
+.button-add{
+    background-color: #E6DDC4;
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 5px;
+    border-style: none;
+    padding: 3px 5px 3px 10px;
+}

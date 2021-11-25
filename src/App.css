@@ -1,3 +1,31 @@
+
+
+.todoapp{
+  /* display: block; */
+  text-align: center;
+  background-color: #678983;
+  color: #F0E9D2;
+  height: 100vh;
+  
+}
+
+.box1{
+  display: block;
+  justify-content: center;
+}
+
+h1{
+  margin-top: 0;
+  padding-top: 30px;
+  font-size: 50px;
+}
+
+
+
+
+
+
+
 .App {
   text-align: center;
 }
